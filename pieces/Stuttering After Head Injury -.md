@@ -1,5 +1,16 @@
 [Stuttering After Head Injury: Types, Causes, and Treatment (flintrehab.com)](https://www.flintrehab.com/stuttering-after-head-injury/#:~:text=Another%20type%20of%20stutter%20that%20can%20occur%20after,it%20most%20likely%20develops%20as%20a%20coping%20method.)
 [[Stuttering After Head Injury]]
+
+#disability #autism #articles #resources #vocation 
+#aac
+
+---
+Author:: Courtney Maher, OTR/L
+Date:: 7/1/2020
+Key:: Public
+
+---
+
 # Stuttering After Head Injury: Types, Causes, and Treatment
 
 [![Courtney Maher, OTR/L](https://secure.gravatar.com/avatar/67904ad8fa57774058b4708c1408e82d?s=300&d=mm&r=g)](https://www.flintrehab.com/editorial/)

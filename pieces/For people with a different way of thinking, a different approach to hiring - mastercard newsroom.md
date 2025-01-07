@@ -1,3 +1,13 @@
+#articles #autism #professionaldev #library #hhs 
+
+---
+Author:: Deborah Abrams Kaplan
+Date:: 7/20/2022
+Key:: Public
+
+---
+
+
 [Neurodiversity in the workplace: How to hire neurodiverse candidates | Mastercard Newsroom](https://www.mastercard.com/news/perspectives/2022/supporting-neurodiversity-in-the-workforce/?fbclid=IwAR1AqcsH7jeWRQHpQ2CR1JFQqukfoUCbTHA7WFxTyZo17_apcZUWRFtqhb8)
 
 INCLUSION
