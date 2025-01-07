@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap');
+
+/* Global Page Styles */
+:root {
+  --colorOne: #7d2965;
+  --colorTwo: #d9d9d8;
+  --colorThree: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+  color: var(--colorOne);
+  font: 17px/1.5 Arial, Helvetica, sans-serif;
+}
+
+body {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d9d9d8+0,7db9e8+0,d9d9d8+0,ffffff+48,d6d6d6+50,7d2965+100 */
+  background: #d9d9d8; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #d9d9d8 0%, #7db9e8 0%, #d9d9d8 0%, #ffffff 48%, #d6d6d6 50%, #7d2965 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover,  #d9d9d8 0%,#7db9e8 0%,#d9d9d8 0%,#ffffff 48%,#d6d6d6 50%,#7d2965 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center,  #d9d9d8 0%,#7db9e8 0%,#d9d9d8 0%,#ffffff 48%,#d6d6d6 50%,#7d2965 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d8', endColorstr='#7d2965',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/* Main */
+img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#sweater {
+  background-color: var(--colorTwo);
+  border: 20px solid;
+  border-image: linear-gradient(-45deg,  #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #b4ce0e 100%);
+  border-image-slice: 40;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+}
+
+/* nav */
+nav {
+  display: flex;
+}
+
+nav a {
+  padding: .5rem 1.5rem;
+}
+
+
+h1 {
+  font-family: 'Alegreya', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+li {
+  margin: .5rem 0;
+}
+
+p {
+  padding: 1rem;
+}
+
+#p,
+footer {
+  margin: 0;
+  text-align: center;
+}
+
+.whitebox {
+  background-color: var(--colorThree);
+  border: 1px #fff solid;
+  border-radius: 15px;
+  margin: 1rem 2rem;
+  padding: 1rem;
+}
+
+/* Tabs */
+.tabs {
+  display: grid;
+}
+
+[role="tablist"] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+[role="tabpanel"] {
+  background: var(--yellow);
+  padding: 2rem;
+}
+
+button {
+  background: var(--grey);
+  border: 0;
+  font-size: 1.5rem;
+  color: black;
+  border-radius: 5px 5px 0 0;
+  --bs-color: rgba(0,0,0,0.1);
+  box-shadow: inset 0 -2px 5px var(--bs-color);
+  cursor:pointer;
+}
+
+button[aria-selected="true"] {
+  background: var(--yellow);
+  box-shadow: none;
+  color: rgba(0,0,0,0.7);
+}
+
+button:focus {
+  outline: 0;
+  --bs-color: rgba(0,0,0,0.6);
+}
