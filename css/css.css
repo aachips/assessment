@@ -1,0 +1,126 @@
+#sweater {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px #333 solid;
+  padding: 1rem;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+}
+
+nav a {
+  padding: .5rem 1.5rem;
+  border: 1px solid black;
+}
+
+nav div li {
+  display: inline;
+  border: 1px solid black;
+  padding: 0;
+}
+
+nav div {
+  order: 2;
+  margin: 0;
+  width: 75%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  order: 1;
+  margin: 0;
+  padding: 0; 
+  width: 25%;
+}
+
+/* 900 px  nav bar width break */
+
+#topics li {
+  display: block;
+}
+
+#subjects {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#subjects li {
+  display: inline-block;
+  height: 100%;
+}
+
+#subjects a {
+  display: inline-block;
+}
+
+#topics a {
+  display: block;
+}
+
+main img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Main */
+h1 {
+  text-align: center;
+}
+
+#skipper {
+  border: 1px indianred solid;
+  text-decoration: none;
+  padding: .5rem;
+  background-color: #333;
+  color: white;
+  position: relative;
+  bottom: 999px;
+}
+
+#skipper:active {
+  bottom: 10px;
+  left: 10px;
+}
+
+/* Color code sections */
+main div {
+  padding: 1rem;
+}
+
+h4 {
+  text-align: center;
+  font-size: 18px;
+}
+
+#body {
+  background-color: #f003;
+}
+
+#relat {
+  background-color: rgba(175, 43, 175, 0.2)
+}
+
+#interact {
+  background-color: #00f3;
+}
+
+#indep {
+  background-color: rgba(202, 253, 61, 0.378)
+}
+
+#exf {
+  background-color: rgba(4, 85, 13, 0.299)
+}
+
+#vocat {
+  background-color: rgba(83, 2, 2, 0.347)
+}
+
+#finan {
+  background-color: #3333;
+}

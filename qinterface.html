@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Q Interface</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* 
+6 Gradients for each different section
+
+Aesthetic Design
+
+Intentional Buttons
+
+One question from each section
+
+Mobile and Desktop Design
+*/
+
+table {
+  width: 60%;
+  margin: 0 auto;
+  border: 2px double #333;
+}
+
+td:nth-of-type(odd), 
+th:nth-of-type(odd) {
+  width: 33%;
+}
+
+td,
+th {
+  border: 2px double #333;
+  text-align: center;
+}
+
+td:nth-of-type(even),
+th:nth-of-type(even) {
+  width: 5%;
+}
+
+th {
+  font-size: 1.5em;
+}
+
+#bottombar {
+display: flex;
+width: 60%;
+margin: 0 auto;
+}
+
+#topform {
+  width: 60%;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#topform {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#bottombar {
+  display: flex;
+  justify-content: space-evenly;
+}
+    </style>
+  </head>
+  <body>
+    <form action="" method="post">
+      <div id="topform">
+        <h1 class="q">Independent Living</h1>
+        <p class="p">13. Ipsum Lorem Question Selection Plorus</p>
+        <img src="images/openvector.png" alt="sample vector." width="200" height="130"><br>
+        <label for="frequency">Frequency</label>
+        <input type="number" min="0" max="6" name="frequency" id="frequency"><br>
+        <label for="severity">Severity</label>
+        <input type="number" min="0" max="6" name="severity" id="severity"><br>
+        <label for="range">Hypo- or Hyper- Ranging</label>
+        <select>
+          <option value="-1">Hypo- Active</option>
+          <option value="1">Hyper- Active</option>
+        </select><br><br>
+      </div>
+      <div id="bottombar">
+        <button>Previous Question</button>
+        <button>Back to Index</button>
+        <button>Append Info at End</button>
+        <button>Save Progress</button>
+        <input type="submit" value="Next Question">
+      </div>
+    </form><br>
+
+    <table>
+      <tr>
+        <th>Frequency</th>
+        <th>#</th>
+        <th>Severity</th>
+      </tr>
+      <tr>
+        <td>Never</td>
+        <td>0</td>
+        <td>Non-Issue</td>
+      </tr>
+      <tr>
+        <td>A few times a year or less</td>
+        <td>1</td>
+        <td>Mild discomfort for self / others</td>
+      </tr>
+      <tr>
+        <td>Once a month or less</td>
+        <td>2</td>
+        <td>Moderate, maybe ignorable</td>
+      </tr>
+      <tr>
+        <td>A few times a month</td>
+        <td>3</td>
+        <td>Causes problems, maybe a disorder</td>
+      </tr>
+      <tr>
+        <td>Once a week</td>
+        <td>4</td>
+        <td>May require an intervention or coordinated support</td>
+      </tr>
+      <tr>
+        <td>A few times a week</td>
+        <td>5</td>
+        <td>Issue places risk concerns of safety, wellbeing, and/or quality of life</td>
+      </tr>
+      <tr>
+        <td>Every day</td>
+        <td>6</td>
+        <td>Debilitating / dangerous / completely disruptive to functioning</td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <th colspan="3">Ranging</th>
+      </tr>
+      <tr>
+        <th>Hypo- Active (-1)</th>
+        <th>-</th>
+        <th>Hyper- Active (+1)</th>
+      </tr>
+    </table>
+    
+  </body>
+</html>
